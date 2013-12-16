@@ -17,7 +17,7 @@ in chrome just type
 http://localhost:8000/user/xx@qq.com/time/5/info/我靠，我竟然收到了
 
 user = destination email
-time = delay xx second
+time = delay xx second 
 info = email contant
 
 ### And..

@@ -19,7 +19,7 @@ http://localhost:8000/user/381983545@qq.com/time/5/info/我靠，我竟然收到
 """
 
 def my_job(send_to,send_info):
-    print "start job ,params: ",send_to,send_info
+    print "start job ,params: ",send_to, send_info
     sendEmail.HtmlEmail().send_to(send_to,"lalala,it's time todo "+str(send_info))
 
 def send_email_with_delay(to,sec,info):
