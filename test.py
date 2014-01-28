@@ -7,7 +7,7 @@ if __name__ == '__main__':
 	e = sendEmail.HtmlEmail()
 	# send_to("222")
 	# dir(e)
-	# e.send_to('381983545@qq.com',"test data : 啊啊对的谔谔")
+	# e.send_to('xxxx@qq.com',"test data : 啊啊对的谔谔")
 	import time
 	print time.time()
 	print time.localtime(time.time())
